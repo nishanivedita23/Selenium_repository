@@ -16,7 +16,7 @@ public class JavaUtility {
 	
 	public String getSystemTime() {
 		return LocalDateTime.now().toString().replace(":", "-");
-		return LocalDateTime.now().toString().replace(":", "-");
+		
 	}
 	
 	/**
@@ -30,4 +30,5 @@ public class JavaUtility {
 	}
 
 }
+
 
